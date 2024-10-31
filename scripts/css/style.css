@@ -1,0 +1,45 @@
+.primail-admin-settings-tab {
+  display: block;
+}
+
+.primail-admin-settings-tab-content {
+  display: block;
+}
+
+.primail-admin-settings-tab-sidebar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .primail-admin-settings-tab {
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .primail-admin-settings-tab-content,
+  .primail-admin-settings-tab-sidebar {
+    display: block;
+  }
+}
+
+.primail-admin-card {
+  padding: 3px 15px;
+  background: #fff;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.primail-admin-card-success {
+  color: #0E8A6C;
+  background-color: #e2f1ed;
+}
+
+.primail-admin-card-error {
+  color: #862932;
+  background-color: #f2e8e8;
+}
+
+.primail-admin-card pre {
+  white-space: break-spaces;
+}
